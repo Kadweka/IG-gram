@@ -71,5 +71,5 @@ def view_users(request, user_id):
 
     return render(request, "other.html", {"photos":my_photos, "profile":profile_pic, "users":users})
 
-def login_page(request):
-    return render(request, 'come.html')
+# def login_page(request):
+#     return render(request, 'come.html')
